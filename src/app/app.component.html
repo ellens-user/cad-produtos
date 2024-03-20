@@ -1,34 +1,46 @@
 
 <div class="container bg-info-subtle p-4"> 
   <h1 class="text-center">Cadastro de Produtos</h1>
-  <form>
-    <div class="mb-3">
-      <label for="RecIdNome" class="form-label">Id e Nome:</label>
-      <input 
-        type="text" 
-        placeholder="Digite o ID e o nome do produto"
-        class="form-control" 
-        id="RecIdNome"
-        name="RecIdNome"
-        />
-    </div>
-
-    <div class="mb-3">
-      <label for="Descrição" class="form-label">Descrição:</label>
-      <textarea
-        placeholder="Digite a descrição do produto"
-        class="form-control"
-        id="RecDescrição"
-        name="RecDescrição"
-      ></textarea>
-    </div>
-
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
+  
+  <div class="row">
+    <div class="col-11 m-auto">
+      <form>
+        <div class="mb-3">
+          <label for="RecIdNome" class="form-label">Id e Nome:</label>
+          <input 
+            type="text" 
+            placeholder="Digite o ID e o nome do produto."
+            class="form-control" 
+            id="RecIdNome"
+            name="RecIdNome"
+            />
+        </div>
     
-    <button type="Salvar" class="btn btn-primary">Salvar</button>
-  </form>
+        <div class="mb-3">
+          <label for="Descrição" class="form-label">Descrição:</label>
+          <textarea
+            placeholder="Digite a descrição do produto."
+            class="form-control"
+            id="RecDescrição"
+            name="RecDescrição"
+          ></textarea>
+        </div>
+    
+        <div class="mb-3">
+          <label for="RecPreçoQnt" class="form-label">Preço e quantidade:</label>
+          <input 
+            type="text" 
+            placeholder="Digite o preço do produto e a quantidade."
+            class="form-control" 
+            id="RecPreçoQnt"
+            name="RecPreçoQnt"
+            />
+        </div>
+        
+        <button type="Salvar" class="btn btn-primary">Salvar</button>
+      </form>
+    </div>
+  </div>
+
 </div>
     
